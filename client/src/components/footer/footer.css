@@ -1,0 +1,35 @@
+.footer{
+    width: 100%;
+    max-width: 1024px;
+    font-size: 12px;
+}
+
+.fLists{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.fList{
+    list-style: none;
+    padding: 0;
+}
+
+.fListItem{
+    margin-bottom: 10px;
+    color: #003580;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.fListItem:hover{
+    color: rgba(255, 102, 0, 0.799);
+}
+
+.copy{
+    margin-bottom: 20px;
+    color: #003580;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
